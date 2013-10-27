@@ -1,3 +1,0 @@
-﻿function MapView(screenModel, mapModel) {
-
-}
