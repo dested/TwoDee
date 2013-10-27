@@ -1,5 +1,6 @@
-﻿
-function GameView(screenModel, gameModel) {
+﻿ 
+
+function EditGameView(screenModel, gameModel) {
     this.init = function () {
 
     };
@@ -23,4 +24,3 @@ function GameView(screenModel, gameModel) {
 
     Helper.canvasDraw(this.render);
 }
- 

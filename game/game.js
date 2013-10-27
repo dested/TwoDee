@@ -23,7 +23,7 @@ function Game() {
         screenModel.canvasSpritesElement.height = h;
     }
 
-    this.currentGameView = new GameView(this.screenModel, null);
+    this.currentGameView = new GameView(this.screenModel, new GameModel(window.FakeGameData[0]));
 
 
 }
